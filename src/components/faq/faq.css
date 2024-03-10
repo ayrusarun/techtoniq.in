@@ -1,0 +1,30 @@
+
+.faq{
+  margin-top: 8%;
+}
+.ant-collapse {
+    background-color: rgb(241, 241, 241);
+  }
+  
+  .ant-collapse-item {
+    background-color: #fff; 
+    border: 1px solid #e8e8e8; 
+    margin-bottom: 8px;
+    border-radius: 10px;
+  }
+  
+
+  .ant-collapse-content {
+    padding: 16px; 
+  }
+  
+  @media screen and (max-width: 800px) {
+    .faq{
+      margin-top: 30%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .ant-collapse-item{
+      font-size: 10px;
+    }
+  }

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
+
+body {
+    background:black radial-gradient(circle, #a3a3a348 1px, transparent 1px);
+    background-size: 50px 50px;   
+    padding: 0 5%;
+    color: white;
+    overflow: auto;
+    word-wrap: break-word;
+}

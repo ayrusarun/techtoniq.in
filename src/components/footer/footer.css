@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.53);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+.footer_menu ul li{
+    padding: 10px;  
+}
+.footer_menu ul li a{
+    color: white;
+}
+.contact{
+     padding: 20px;
+}
+.social_links ul li{
+    margin-top: 10%;
+}
+.social_links ul li a{
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,114 @@
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo{
+  width: 200px;
+  height: 40px;
+  object-fit: cover;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 20px;
+  background-color:white;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(232,232,232,1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(232,232,232,1);
+  box-shadow: 0px 0px 5px 1px rgba(232,232,232,1);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
+  z-index: 1;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 10px;
+}
+.nav__item a{
+  padding:8px 20px;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+.nav__item a:hover{
+-webkit-box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.828);
+-moz-box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.781);
+box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.679);
+}
+
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 0.2rem;
+    background: rgba(0, 0, 0, 0.805);
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+  }
+
+@media screen and (max-width: 800px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20%;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    background: linear-gradient( rgba(255, 255, 255, 0.138), rgba(255, 255, 255, 0.161));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+a{
+  color: white;
+}
+
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+
+@media screen and (max-width: 400px) {
+  .logo{
+    width: 170px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .nav__menu {
+    padding-top: 30%;
+  }
+}
