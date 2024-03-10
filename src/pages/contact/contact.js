@@ -22,7 +22,7 @@ const Contact = () => {
       return;
     }
 
-    const whatsappNumber = "+919789309138";
+    const whatsappNumber = "+918940882711";
     const url =
       "https://wa.me/" +
       whatsappNumber +
