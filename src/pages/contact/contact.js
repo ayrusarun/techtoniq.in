@@ -48,7 +48,7 @@ const Contact = () => {
   return (
     <div id="contactPage">
       <div>
-        <small>#Contact</small>
+        <small>#Contat</small>
         <h1>Let's talk ||</h1>
       </div>
       <form action="">
