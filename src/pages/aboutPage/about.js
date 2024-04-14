@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div id="aboutPage">
       <div>
-        <small>#About</small>
-        <h1>Who We Are ||</h1>
+      
+        <h1>Who We Are</h1><br />
       </div>
       <div className="aboutTxt">
         Welcome to Techtoniq.in, your premier destination for cutting-edge web
@@ -17,15 +17,15 @@ const About = () => {
         today.
         <div className="achievements">
           <div style={{textAlign:"center"}}>
-            <h2>25+</h2>
+            <h2>25 <span style={{color:"goldenrod"}}>+</span></h2>
             <h3>Clints</h3>
           </div>
           <div style={{textAlign:"center"}}>
-            <h2>31+</h2>
+            <h2>31 <span style={{color:"goldenrod"}}>+</span></h2>
             <h3>Projects</h3>
           </div>
           <div style={{textAlign:"center"}}>
-            <h2>12+</h2>
+            <h2>12 <span style={{color:"goldenrod"}}>+</span></h2>
             <h3>Countries</h3>
           </div>
           

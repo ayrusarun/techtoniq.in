@@ -3,16 +3,22 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.53);
-    color: white;
+    border-left: 3px solid rgba(218, 165, 32, 0.403);
+    border-right: 3px solid rgba(218, 165, 32, 0.339);
+    color: black;
     width: 100%;
     padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.footer:hover{
+    background-color: white;
 }
 .footer_menu ul li{
     padding: 10px;  
 }
 .footer_menu ul li a{
-    color: white;
+    color: black;
 }
 .contact{
      padding: 20px;
@@ -21,9 +27,15 @@
     margin-top: 10%;
 }
 .social_links ul li a{
-    color: white;
+    color: black;
 }
-
+.rights{
+    border-left: 3px solid rgba(218, 165, 32, 0.403);
+    border-right: 3px solid rgba(218, 165, 32, 0.339);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
 @media screen and (max-width: 800px) {
     .footer{
         flex-direction: column;

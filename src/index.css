@@ -17,10 +17,10 @@ html {
   }
 
 body {
-    background:black radial-gradient(circle, #a3a3a348 1px, transparent 1px);
+    background:white radial-gradient(circle, #34343448 1px, transparent 1px);
     background-size: 50px 50px;   
     padding: 0 5%;
-    color: white;
+    color: black;
     overflow: auto;
     word-wrap: break-word;
 }

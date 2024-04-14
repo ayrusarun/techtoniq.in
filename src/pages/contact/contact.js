@@ -22,7 +22,7 @@ const Contact = () => {
       return;
     }
 
-    const whatsappNumber = "+918940882711";
+    const whatsappNumber = "+919789309138";
     const url =
       "https://wa.me/" +
       whatsappNumber +
@@ -48,8 +48,7 @@ const Contact = () => {
   return (
     <div id="contactPage">
       <div>
-        <small>#Contat</small>
-        <h1>Let's talk ||</h1>
+        <h1>Let's talk</h1><br />
       </div>
       <form action="">
         <input
@@ -78,7 +77,7 @@ const Contact = () => {
             }
           }}
         />
-        <Select
+        <Select 
           labelInValue
           defaultValue={{
             value: 'Website Development',

@@ -1,10 +1,18 @@
 #contactPage{
    margin-top: 5%;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
-    
+    border-left: 3px solid rgba(218, 165, 32, 0.403);
+    border-right: 3px solid rgba(218, 165, 32, 0.339);
+    border-radius: 30px;
+    transition: 0.5s;
 }
+#contactPage:hover{
+   background-color: white;
+    
+  }
 form{
     display: flex;
     flex-direction: column;
@@ -15,7 +23,7 @@ form{
 
 }
 form input,textarea{
-    border: none;
+    border: 1px solid goldenrod;
     outline: none;
    width: 100%;
    padding: 20px;
@@ -34,6 +42,7 @@ form input,textarea{
 }
 .submitBtn:hover{
     background-color: rgba(218, 165, 32, 0.297);
+    color: black;
 }
 .alert {
     background-color: #f8d7da;

@@ -11,6 +11,7 @@ const Footer = () => {
   return (
     <div className='footer_area'>
      <div className='footer'>
+      
      <div className='footer_menu'>
       <a href="#homePage"><img src={logo} alt="logo" className="logo"/></a>
       <br />
@@ -44,7 +45,7 @@ const Footer = () => {
         </ul>
       </div>
      </div>
-     <p style={{color:"whitesmoke",textAlign:"center",padding:"10px"}}>
+     <p className='rights'>
      Copyright © 1999-2024 GoDaddy, LLC. All rights reserved.
 Privacy Policy
 
