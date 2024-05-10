@@ -34,7 +34,7 @@ export default function Home() {
             all at competitive prices tailored to fit your budget.
           </p>
           <a href="#contactPage" className="lets_Go_Btn">
-            Let's Go
+            Let's Connect
           </a>
 
           <div className="BGimg1"></div>

@@ -22,7 +22,7 @@ form{
     width: 40%;
 
 }
-form input,textarea{
+form input,textarea,select{
     border: 1px solid goldenrod;
     outline: none;
    width: 100%;

@@ -27,12 +27,12 @@ const Footer = () => {
       <div className='footer_contact'>
            <div className="contact">
             <h4><MdEmail/> Email</h4>
-            <h3>exampleemail@gmail.com</h3>
+            <h3>contact@techtoniq.in</h3>
            </div>
 
            <div className="contact">
             <h4><IoLogoWhatsapp/> Whatsapp</h4>
-            <h3>+91 947352874</h3>
+            <h3>+91 8940882711</h3>
            </div>
       </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
      </div>
      <p className='rights'>
-     Copyright © 1999-2024 GoDaddy, LLC. All rights reserved.
+     Copyright © 2024 techtoniq.in All rights reserved.
 Privacy Policy
 
      </p>

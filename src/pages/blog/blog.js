@@ -9,7 +9,7 @@ const Blog = () => {
      <>
       <div id="blogPage">
         <div>
-          <h1>Our collaborators </h1>
+          <h1>Our clients </h1>
         </div >
         
        <div className='project_container'>
