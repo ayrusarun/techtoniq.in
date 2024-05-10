@@ -41,7 +41,7 @@ export default function Home() {
           <div className="BGimg2"></div>
           <div className="BGimg3"></div>
 
-          <a href="http://wa.me/+919789309138" target="_blank" rel="noreferrer">
+          <a href="http://wa.me/+918940882711" target="_blank" rel="noreferrer">
             <img src={ws_icon} alt="whatsapp_icon" className="whatsapp_icon" />
           </a>
         </div>
